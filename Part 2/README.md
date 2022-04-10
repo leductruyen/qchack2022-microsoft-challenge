@@ -1,4 +1,6 @@
-# Variatioal Quantum Eigensolver - Ising Model with upgrade the Convergence and Time Running
+# Variatioal Quantum Eigensolver - Ising Model with upgrading the Convergence and Running time
 In this project, we will implement the basic Variational Quantum Eigensolver (VQE) for Ising Model. The main problems of a VQE are the ansatz preparation, cost function and optimization. Investigating to a specific problem of VQE, Ising model, what we solved here that we using the physical properties of Ising model to reduce parameters and quantum space of ansatz so that we can run VQE faster without lossing the accuracy. 
 
 And then we use the Parameter-shift rules method for implementign the full quantum algorithm including the quantum optimization routine. We concluded that, the Parameter-shift rule has improved the convergence and maybe accuracy in some physical value of magnetism amplitude and if we can run successfully on real device, we can expect that it would also beat the classical optimization in NISQ device due to noise effects.
+
+Because of the limite of hackathon timeline, I have not been able to run on real quantum hardware IonQ, to see a great expected improvement on noisy effect. So just walkthrough the notebook and see interesting results running on local computer simulator (Aer qiskit simulator)
