@@ -3,8 +3,4 @@ In this project, we will implement the basic Variational Quantum Eigensolver (VQ
 
 And then we use the Parameter-shift rules method for implementign the full quantum algorithm including the quantum optimization routine. We concluded that, the Parameter-shift rule has improved the convergence and maybe accuracy in some physical value of magnetism amplitude and if we can run successfully on real device, we can expect that it would also beat the classical optimization in NISQ device due to noise effects.
 
-<<<<<<< HEAD
 Because of the limite of hackathon timeline, I have not been able to run on real quantum hardware IonQ, to see a great expected improvement on noisy effect. So just walkthrough the notebook and see interesting results running on local computer simulator (Aer qiskit simulator)
-=======
-Because of the limite of hackathon timeline, I have not been able to run on real quantum hardware IonQ, to see a great expected improvement on noisy effect. So just walkthrough the notebook and see interesting results running on local computer simulator (Aer qiskit simulator)
->>>>>>> d6c096f985e65c339f71d6c074dc8505841058b0
